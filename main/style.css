@@ -104,6 +104,27 @@ form p a {
   transition: background 1s;
 }
 
+.submit-field {
+  margin-top: 30px;
+}
+
+#submitBtn {
+  background: linear-gradient(rgba(190,0,0,0.5),rgba(50,0,0,0.7));
+  padding: 10px 135px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+}
+
+#submitBtn:hover {
+  opacity: 0.8;
+}
+
+#submitBtn:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
 .input-group {
 
   height: 280px;
