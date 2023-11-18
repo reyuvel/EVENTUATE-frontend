@@ -13,46 +13,41 @@
 <body>
   <form>
   <div class="split left">
-    <div class="centered1">
 
       <div>
         <form class="menubar">
           <nav>
 
              <button type="button" class="logout"><i class="fa-solid fa-sign-out"></i></button>
-             <button type="button" class="notification"><i class="fa-solid fa-message"></i></button>
-
           </nav>
         </form>
       </div>
 
 
          <h1 class="heading" id="title">COMPANY REGISTRATION</h1>
-          
+         <div class="centered1">
+
             <div class="input-group">
     
-              <div class="input-field" id="nameField">
-                <i class="fa-solid fa-user"></i>
-                <input type="text" placeholder="COMPANY NAME" required>
-              </div>
-    
               <div class="input-field" id="addressField">
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i class="fa fa-address-card" aria-hidden="true"></i>
                 <input type="text" placeholder="ADDRESS" required>
               </div>              
             
 
               <div class="input-field">
-                <i class="fa-solid fa-envelope"></i>
+                <i class="fa fa-city"></i>
                 <input type="email" placeholder="STATE" required>
             </div>
 
-            <div class="input-field" id="experience">
-            <input type="text" placeholder="LOCATION" required>
-            </div>
+            <div class="input-field">
+                <i class="fa fa-location"></i>
+                <input type="text" placeholder="LOCATION" required>
+                </div>
 
-            <div class="input-field" id="experience">
-              <input type="text" placeholder="REGISTRATION NUMBER" required>
+            <div class="input-field" id="maxbooking">
+              <i class="fa fa-book"></i>
+              <input type="number" placeholder="MAXIMUM NUMBER OF BOOKINGS PER DAY" required>
             </div>
 
             <form action="upload.php" method="post" enctype="multipart/form-data">
@@ -60,8 +55,10 @@
               <input type="file" id="imageUpload" name="image" accept="image/*">
               <input type="submit" value="Upload Image">
             </form>
+
+            <form>
             <button type="submit" class="btn">SUBMIT</button>
-            
+          </form>
          
       </div>
     </div>
